@@ -20,6 +20,9 @@ app.get("/users/:pepe", (req, res) => {
     message: "un usuario X",
   });
 });
+
+//cualquiera de estos "app.get()" "app.post()" es un ENDPOINT
+
 app.post("/users/", (req, res) => {
   res.status(200).json({
     id: 1,
